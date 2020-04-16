@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsuCustomBackgroundV2", "OsuCustomBackgroundV2\OsuCustomBackgroundV2.csproj", "{5332A8B0-5A3B-465F-88CD-AC02B38F74CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5332A8B0-5A3B-465F-88CD-AC02B38F74CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5332A8B0-5A3B-465F-88CD-AC02B38F74CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5332A8B0-5A3B-465F-88CD-AC02B38F74CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5332A8B0-5A3B-465F-88CD-AC02B38F74CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A0B0BD8-DEA3-4A50-8306-CAF43AC307D9}
+	EndGlobalSection
+EndGlobal
