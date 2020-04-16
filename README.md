@@ -16,4 +16,5 @@ if you've done that you just have to open the application
 #Shortcuts
 
 A = Select/Unselect all
+
 Shift & right/left arrow keys = Check/Uncheck selection
