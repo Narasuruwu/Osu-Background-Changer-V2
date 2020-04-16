@@ -96,7 +96,17 @@ namespace OsuCustomBackgroundV2
                 button3.Hide();
             }
             if(File.Exists(osuPath + treeView1.SelectedNode.Text))
-            pictureBox1.BackgroundImage = new Bitmap(osuPath + treeView1.SelectedNode.Text);
+            {
+                Image image = new Bitmap(osuPath + treeView1.SelectedNode.Text);
+                Image img = new Bitmap(image.Width, image.Height);
+                using (Graphics g = Graphics.FromImage(img))
+                {
+                    g.DrawImage(image, new Rectangle(0, 0, image.Width, image.Height), new Rectangle( 0, 0, image.Width, image.Height), GraphicsUnit.Pixel);
+                    g.Dispose();
+                }
+                image.Dispose();
+                pictureBox1.BackgroundImage = img;
+            }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
