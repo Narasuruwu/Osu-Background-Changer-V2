@@ -96,7 +96,7 @@ namespace OsuCustomBackgroundV2
                 button3.Hide();
             }
             if(File.Exists(osuPath + treeView1.SelectedNode.Text))
-            pictureBox1.BackgroundImage = Crop(new Bitmap(osuPath + treeView1.SelectedNode.Text));
+            pictureBox1.BackgroundImage = new Bitmap(osuPath + treeView1.SelectedNode.Text);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -192,30 +192,5 @@ namespace OsuCustomBackgroundV2
             }
         }
 
-        public Image Crop(Image input)
-        {
-            if (input == null)
-                return null;
-
-            int size = input.Width;
-
-            int other = input.Height;
-
-            if (input.Width > input.Height)
-            {
-                size = input.Height;
-                other = input.Width;
-            }
-
-            Image img = new Bitmap(size, size);
-
-            using (Graphics g = Graphics.FromImage(img))
-            {
-                g.DrawImage(input, new Rectangle(0, 0, size, size), new Rectangle((input.Width - size) / 2, (input.Height - size) / 2, size, size), GraphicsUnit.Pixel);
-                g.Dispose();
-            }
-
-            return img;
-        }
     }
 }
