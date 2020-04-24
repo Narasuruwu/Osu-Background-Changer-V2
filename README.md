@@ -18,3 +18,5 @@ if you've done that you just have to open the application
 A = Select/Unselect all
 
 Shift, space & right/left arrow keys = Check/Uncheck selection
+
+![screenshot](http://narasu.u.catgirlsare.sexy/cIhs.png)
