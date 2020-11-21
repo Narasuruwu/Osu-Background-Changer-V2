@@ -19,4 +19,4 @@ A = Select/Unselect all
 
 Shift, space & right/left arrow keys = Check/Uncheck selection
 
-![screenshot](http://narasu.u.catgirlsare.sexy/cIhs.png)
+![screenshot](https://b.catgirlsare.sexy/8plT.png)
