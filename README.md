@@ -4,19 +4,20 @@
 
 
 
-#Usage
+## Usage
 
-To use this you need to set the seasonal backgrounds to always in the settings in osu and then cycle through all of them
-
-
-if you've done that you just have to open the application
+To use this you need to set the seasonal backgrounds to "always" in the osu settings and then cycle through all of them
 
 
+once you've done the above you just have to open the application and select the images you'd like to replace with a custom one
 
-#Shortcuts
+
+## Shortcuts
 
 A = Select/Unselect all
 
 Shift, space & right/left arrow keys = Check/Uncheck selection
+
+</br>
 
 ![screenshot](https://b.catgirlsare.sexy/8plT.png)
